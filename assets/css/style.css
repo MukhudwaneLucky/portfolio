@@ -1446,6 +1446,6 @@ footer .credits a {
 }
 
 .pdf {
-	width: inherit; 
-	height: 900px;
+	width: inherit!important; 
+	height: 900px!important;
 }
