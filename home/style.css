@@ -1,0 +1,62 @@
+/* Show it is fixed to the top */
+body {
+  min-height: auto;
+  padding-top: 4.5rem;
+}
+
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+.cover-container {
+  max-width: inherit;
+  text-align: center!important;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+.project-live {
+  color: green;
+}
+.project-undercontruction {
+  color: blue;
+}
+
+
