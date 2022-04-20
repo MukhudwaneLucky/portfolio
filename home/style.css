@@ -2,9 +2,6 @@
 body {
   min-height: auto;
   padding-top: 4.5rem;
-}
-
-body {
   padding-bottom: 20px;
 }
 
@@ -17,10 +14,6 @@ body {
   fill: currentColor;
 }
 
-/*
- * Globals
- */
-
 
 /* Custom default button */
 .btn-secondary,
@@ -29,11 +22,6 @@ body {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
 }
-
-
-/*
- * Base structure
- */
 
 .cover-container {
   max-width: inherit;
@@ -59,4 +47,24 @@ body {
   color: blue;
 }
 
+.rounded-4 { border-radius: .5rem; }
+.rounded-5 { border-radius: .75rem; }
+.rounded-6 { border-radius: 1rem; }
 
+.modal-sheet .modal-dialog {
+  width: 380px;
+  transition: bottom .75s ease-in-out;
+}
+.modal-sheet .modal-footer {
+  padding-bottom: 2rem;
+}
+
+.modal-alert .modal-dialog {
+  width: 380px;
+}
+
+.border-right { border-right: 1px solid #eee; }
+
+.modal-tour .modal-dialog {
+  width: 380px;
+}
