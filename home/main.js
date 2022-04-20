@@ -17,3 +17,7 @@ function view_react_native_repo(){
 function view_python_mini_projects(){
     window.open('https://github.com/MukhudwaneLucky/python_mini_projects', '_blank');
 }
+
+function download_cv(){
+    window.open('cv.html', '_self');
+}
