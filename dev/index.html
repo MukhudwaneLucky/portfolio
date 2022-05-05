@@ -16,6 +16,10 @@
 
     <!-- Custom Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <!-- LinkedIn 
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+      -->
   </head>
   <body class="bg-dark text-white">
  
@@ -62,7 +66,7 @@
     <div class="cover-container flex-column">
       <br><br><br>
       <h1>Hi, Im Lucky.</h1>
-      <p class="lead" >I like to consider myself as a Full-Stack Developer. Im from Gauteng in South Africa. I create websites and mobile applications for people to make their daily lives better.</p>
+      <p class="lead" >I like to consider myself as a Full-Stack Developer. Im from Thohoyandou, Limpopo in South Africa. I create websites and mobile applications for people to make their daily lives better.</p>
 
       
       <svg viewBox="0 0 128 128" width="116" height="116">
@@ -109,7 +113,7 @@
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6 overflow-hidden shadow-lg">
-            <img src="assets/img/bg.jpg" class="rounded-lg-3 " alt="Picture-Lucky" width="500px" height="500px">
+            <img src="assets/img/bg.jpg" class="rounded-lg-3" alt="Picture-Lucky" width="500px" height="500px">
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">About Me</h1>
@@ -138,8 +142,7 @@
       
 
   <div class="row text-black" data-masonry='{"percentPosition": true }'>
-
-    
+    <!--
     <div class="col-sm-6 col-lg-4 mb-4">
       <div class="card">
         
@@ -176,7 +179,7 @@
         </div>
         <img src="assets/img/python_mini_languages.PNG" alt="Python python_mini_languages Used" />
       </div>
-    </div>
+    </div>-->
     <div class="col-sm-6 col-lg-4 mb-4">
       <div class="card">
         <img src="assets/img/lucky_blog.PNG" alt="Lucky's Blog" />
@@ -229,38 +232,47 @@
         * includes contact info and links to social media accounts
     -->
     <div id="contact">
-      <div class="modal modal-tour position-static d-block bg-secondary py-5 bg-dark text-black" tabindex="-1" role="dialog" id="modalTour">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content rounded-6 shadow">
-            <div class="modal-body p-5">
-              <h2 class="fw-bold mb-0">How to reach me.</h2>
-      
-              <ul class="d-grid gap-2 my-5 list-unstyled">
-                <li class="d-flex gap-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                  </svg>
-                  <div>
-                    <h5 class="mb-0">Email</h5>
-                    mukhudwane17@gmail.com
-                  </div>
-                </li>
-                <li class="d-flex gap-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                  </svg>
-                  <div>
-                    <h5 class="mb-0">Phone Numbers</h5>
-                    (+27) 78 495 8794<br>
-                    (+27) 72 199 5466
-                  </div>
-                </li>
-              </ul>
-              <button type="button" onclick="download_cv()" class="btn btn-lg btn-primary mt-5 w-100" data-bs-dismiss="modal">Download CV</button>
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom text-white">How to reach me...</h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg>
+                <br>
+                <p class="lead">
+                mukhudwane17@gmail.com
+              </p>
+              </div>
             </div>
-          </div>
+          </div> 
+          <div class="col">
+            
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <button type="button" onclick="download_cv()" class="btn btn-lg btn-primary mt-5 w-100" data-bs-dismiss="modal">Download CV</button>
+              </div>
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+                <br>
+                <p class="lead"> 
+                  Primary     : (+27) 72 199 5466<br>
+                  Alt. : (+27) 78 495 8794
+                </p>
+              </div>
+            </div>
+          </div> 
         </div>
       </div>
+
     </div>
     <!-- end contact section -->
 
