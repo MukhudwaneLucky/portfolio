@@ -21,3 +21,12 @@ function view_python_mini_projects(){
 function download_cv(){
     window.open('cv.html', '_self');
 }
+
+function view_cfx_giant(){
+    window.open('https://mukhudwanelucky.github.io/cfxgiant', '_blank');
+}
+
+function view_cfx_giant_repo(){
+    window.open('https://github.com/MukhudwaneLucky/cfxgiant', '_blank');
+}
+
